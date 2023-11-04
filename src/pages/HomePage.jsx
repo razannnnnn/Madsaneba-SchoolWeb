@@ -92,8 +92,8 @@ const HomePage = () => {
                   tahun 2023.
                 </p>
                 <p className="date">
-                  <span className="fw-semibold">Team IT Madsaneba</span> - 5
-                  November 2022
+                  <span className="fw-semibold">Team IT Madsaneba</span> - 30
+                  Oktober 2023
                 </p>
               </div>
             </Col>
@@ -108,8 +108,8 @@ const HomePage = () => {
                   Gerakan Sehari Membaca Untuk Enggelorkan Literasi Baca.
                 </p>
                 <p className="date">
-                  <span className="fw-semibold">Team IT Madsaneba</span> - 30
-                  Oktober 2023
+                  <span className="fw-semibold">Team IT Madsaneba</span> - 5
+                  November 2022
                 </p>
               </div>
             </Col>
