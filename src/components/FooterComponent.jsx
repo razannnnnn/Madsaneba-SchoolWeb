@@ -34,7 +34,7 @@ const FooterComponent = () => {
           <Col lg="3" className="menu-footer d-flex flex-column row-gap-2">
             <h5 className="fw-bold text-white">Sekolah</h5>
             <a href="/profil/sejarah">Sejarah Singkat</a>
-            <a href="/profile/visi-misi">Visi dan Misi</a>
+            <a href="/profil/visi-misi">Visi dan Misi</a>
             <a href="https://mtsnegeriblitar.sch.id/ppdb">Pendaftaran</a>
             <a href="/kontak">Kontak & Alamat</a>
           </Col>
