@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import "font-awesome/css/font-awesome.min.css";
 
 import Hero1 from "../assets/homepage/hero/hero-1.jpg";
 import Hero2 from "../assets/homepage/hero/hero-2.jpg";
@@ -88,8 +89,8 @@ const HomePage = () => {
                   Siswa
                 </button>
                 <p className="fw-semibold">
-                  Kejuaraan lomba AKTAPALA Se-Blitar Raya Open di MAN 1 Blitar
-                  tahun 2023.
+                  Kejuaraan lomba AKTAPALA Se-Blitar Raya di MAN 1 Blitar tahun
+                  2023.
                 </p>
                 <p className="date">
                   <span className="fw-semibold">Team IT Madsaneba</span> - 30
@@ -163,8 +164,7 @@ const HomePage = () => {
                 className="btn btn-success btn-lg rounded-pill fs-5 px-4"
                 onClick={() => navigate("/profil/tentang")}
               >
-                Detail Tentang Kami{" "}
-                <i className="fa-solid fa-chevron-right"></i>{" "}
+                Detail Tentang Kami <i className="fa fa-chevron-right fs-6"></i>
               </button>
             </Col>
           </Row>
@@ -218,7 +218,7 @@ const HomePage = () => {
                   className="btn btn-success btn-lg rounded-pill fs-5 px-4"
                   onClick={() => navigate("/gallery/gallery-kbm")}
                 >
-                  Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
+                  Lihat Semua <i className="fa fa-chevron-right fs-6"></i>
                 </button>
               </Col>
             </Row>
@@ -261,7 +261,7 @@ const HomePage = () => {
                   className="btn btn-success btn-lg rounded-pill fs-5 px-4"
                   onClick={() => navigate("/gallery/gallery-ekskul")}
                 >
-                  Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
+                  Lihat Semua <i className="fa fa-chevron-right fs-6"></i>
                 </button>
               </Col>
             </Row>
@@ -304,7 +304,7 @@ const HomePage = () => {
                   className="btn btn-success btn-lg rounded-pill fs-5 px-4"
                   onClick={() => navigate("/gallery/gallery-event")}
                 >
-                  Lihat Semua <i className="fa-solid fa-chevron-right"></i>{" "}
+                  Lihat Semua <i className="fa fa-chevron-right fs-6"></i>
                 </button>
               </Col>
             </Row>
