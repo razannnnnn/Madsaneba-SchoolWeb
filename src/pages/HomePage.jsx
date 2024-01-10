@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import "font-awesome/css/font-awesome.min.css";
 
-import Hero1 from "../assets/homepage/hero/hero-1.jpg";
-import Hero2 from "../assets/homepage/hero/hero-2.jpg";
-import Hero3 from "../assets/homepage/hero/hero-3.jpg";
-import Hero4 from "../assets/homepage/hero/hero-4.jpg";
+import Hero1 from "../assets/homepage/hero/hero-1.webp";
+import Hero2 from "../assets/homepage/hero/hero-2.webp";
+import Hero3 from "../assets/homepage/hero/hero-3.webp";
+import Hero4 from "../assets/homepage/hero/hero-4.webp";
 import Hero5 from "../assets/homepage/gallery/kbm/galeri-1.jpg";
-import Hero6 from "../assets/homepage/hero/hero-5.jpg";
+import Hero6 from "../assets/homepage/hero/hero-5.webp";
 
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -34,7 +34,12 @@ const HomePage = () => {
         <Container className="overflow-hidden px-3 mx-auto">
           <Row className="berita-utama row-cols-md-2 row-cols-1 flex-md-nowrap flex-wrap gap-md-1 gap-4 mb-md-1 mb-4">
             <Col className="position-relative overflow-hidden p-0">
-              <img src={Hero1} alt="berita-utama-1" width="100%" />
+              <img
+                fetchpriority="low"
+                src={Hero1}
+                alt="berita-utama-1"
+                width="100%"
+              />
               <div className="bg"></div>
               <div className="info-berita px-3">
                 <button className="btn btn-success btn-sm mb-2">Guru</button>
@@ -49,7 +54,12 @@ const HomePage = () => {
               </div>
             </Col>
             <Col className="position-relative overflow-hidden p-0">
-              <img src={Hero2} alt="berita-utama-2" width="100%" />
+              <img
+                src={Hero2}
+                alt="berita-utama-2"
+                fetchpriority="low"
+                width="100%"
+              />
               <div className="bg"></div>
               <div className="info-berita px-3">
                 <button className="btn btn-success btn-sm mb-2">Guru</button>
@@ -66,7 +76,7 @@ const HomePage = () => {
           </Row>
           <Row className="berita-lainnya row-cols-md-4 row-cols-1 flex-md-nowrap flex-wrap gap-1">
             <Col className="position-relative overflow-hidden p-0 d-flex">
-              <img src={Hero3} alt="" />
+              <img src={Hero3} alt="" fetchpriority="low" />
               <div className="bg d-md-block d-none"></div>
               <div className="info-berita px-3">
                 <button className="btn btn-success btn-sm mb-2 d-sm-block d-none">
@@ -82,7 +92,7 @@ const HomePage = () => {
               </div>
             </Col>
             <Col className="position-relative overflow-hidden p-0 d-flex">
-              <img src={Hero4} alt="" />
+              <img src={Hero4} alt="" fetchpriority="low" />
               <div className="bg d-md-block d-none"></div>
               <div className="info-berita px-3">
                 <button className="btn btn-success btn-sm mb-2 d-sm-block d-none">
@@ -99,7 +109,7 @@ const HomePage = () => {
               </div>
             </Col>
             <Col className="position-relative overflow-hidden p-0 d-flex ">
-              <img src={Hero5} alt="" />
+              <img src={Hero5} alt="" fetchpriority="low" />
               <div className="bg d-md-block d-none"></div>
               <div className="info-berita px-3">
                 <button className="btn btn-success btn-sm mb-2 d-sm-block d-none">
@@ -115,7 +125,7 @@ const HomePage = () => {
               </div>
             </Col>
             <Col className="position-relative overflow-hidden p-0 d-flex ">
-              <img src={Hero6} alt="" />
+              <img src={Hero6} alt="" fetchpriority="low" />
               <div className="bg d-md-block d-none"></div>
               <div className="info-berita px-3">
                 <button className="btn btn-success btn-sm mb-2 d-sm-block d-none">
@@ -276,7 +286,7 @@ const HomePage = () => {
               <Col>
                 <img
                   src={EVNT1}
-                  alt="unsplash.com"
+                  alt="event1"
                   className="w-100"
                   style={{ height: "250px" }}
                 />

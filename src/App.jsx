@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 import HomePage from "./pages/HomePage";
 
@@ -21,6 +22,14 @@ function App() {
   return (
     <div>
       <>
+        <Helmet>
+          <meta name="description" content="MTsN 1 Kota Blitar" />
+          <meta name="author" content="Razan" />
+          <meta
+            property="og:description"
+            content="Madrasah Tsanawiyah Negeri 1 Kota Blitar"
+          />
+        </Helmet>
         <NavbarComponent />
 
         <Router>

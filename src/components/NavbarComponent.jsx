@@ -1,3 +1,4 @@
+// Modules
 import {
   Navbar,
   Container,
@@ -22,6 +23,7 @@ const NavbarComponent = () => {
               <img
                 alt=""
                 src={Logo}
+                fetchpriority="low"
                 width="60"
                 height="60"
                 className="logo-img d-inline-block align-top me-2"
@@ -43,8 +45,9 @@ const NavbarComponent = () => {
                   className="d-flex align-items-center"
                 >
                   <img
-                    alt=""
+                    alt="Logo"
                     src={Logo}
+                    fetchpriority="low"
                     width="60"
                     height="60"
                     className="d-inline-block align-top me-2"
