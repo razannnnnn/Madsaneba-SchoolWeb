@@ -5,25 +5,25 @@ import Hero1 from "../assets/homepage/hero/hero-1.webp";
 import Hero2 from "../assets/homepage/hero/hero-2.webp";
 import Hero3 from "../assets/homepage/hero/hero-3.webp";
 import Hero4 from "../assets/homepage/hero/hero-4.webp";
-import Hero5 from "../assets/homepage/gallery/kbm/galeri-1.jpg";
+import Hero5 from "../assets/homepage/gallery/kbm/galeri-1.webp";
 import Hero6 from "../assets/homepage/hero/hero-5.webp";
 
 import { Container, Row, Col } from "react-bootstrap";
 
 // Kbm Image
-import KBM1 from "../assets/homepage/gallery/kbm/galeri-1.jpg";
-import KBM2 from "../assets/homepage/gallery/kbm/galeri-2.jpg";
-import KBM3 from "../assets/homepage/gallery/kbm/galeri-3.jpg";
+import KBM1 from "../assets/homepage/gallery/kbm/galeri-1.webp";
+import KBM2 from "../assets/homepage/gallery/kbm/galeri-2.webp";
+import KBM3 from "../assets/homepage/gallery/kbm/galeri-3.webp";
 
 // Event Image
-import EVNT1 from "../assets/homepage/gallery/event/event-1.jpg";
-import EVNT2 from "../assets/homepage/gallery/event/event-2.jpg";
-import EVNT3 from "../assets/homepage/gallery/event/event-3.jpg";
+import EVNT1 from "../assets/homepage/gallery/event/event-1.webp";
+import EVNT2 from "../assets/homepage/gallery/event/event-2.webp";
+import EVNT3 from "../assets/homepage/gallery/event/event-3.webp";
 
 // Eskul Image
-import ESKL1 from "../assets/homepage/gallery/eskul/eskul-1.jpg";
-import ESKL2 from "../assets/homepage/gallery/eskul/eskul-2.jpg";
-import ESKL3 from "../assets/homepage/gallery/eskul/eskul-3.jpg";
+import ESKL1 from "../assets/homepage/gallery/eskul/eskul-1.webp";
+import ESKL2 from "../assets/homepage/gallery/eskul/eskul-2.webp";
+import ESKL3 from "../assets/homepage/gallery/eskul/eskul-3.webp";
 
 const HomePage = () => {
   let navigate = useNavigate();
